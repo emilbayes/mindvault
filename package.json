@@ -1,0 +1,33 @@
+{
+  "name": "mindvault",
+  "version": "0.0.0",
+  "description": "Deterministic seeds from passphrases suitable for WetWare RAM (Read: the human brain)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eff-diceware-passphrase": "^1.0.0",
+    "ssb-keys": "^7.0.0"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/mindvault.git"
+  },
+  "keywords": [
+    "seed",
+    "ed25519",
+    "curve25516",
+    "ssb-keys",
+    "diceware",
+    "passphrase",
+    "asymmetric"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/mindvault/issues"
+  },
+  "homepage": "https://github.com/emilbayes/mindvault#readme"
+}
