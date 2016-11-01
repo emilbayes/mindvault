@@ -23,13 +23,13 @@ var keyPair = crypt.generate('ed25519', hash(passphrase, salt, appId))
 
 ### `mindvault(passphrase, salt, [appId])`
 
-`passphrase` must be a Buffer of arbitrary length, and is recommended to have
-entropy beyond 100 bits.  
-`salt` must be Buffer of arbitrary length. It ss used to partition the key
+* `passphrase` must be a Buffer of arbitrary length, and is recommended to have
+entropy beyond 100 bits.
+* `salt` must be Buffer of arbitrary length. It ss used to partition the key
 space, to prevent dictionary attacks and key collisions, and should therefore be
 unique. One way to achieve this is to have users enter their email address as
-email addresses are unique by definition.  
-`appId` is optional, but must be a Buffer of length `mindvault.APP_ID_BYTES`.
+email addresses are unique by definition.
+* `appId` is optional, but must be a Buffer of length `mindvault.APP_ID_BYTES`.
 Presently that's 32 bytes, and it is used as a key to the salt hashing algorithm
 Blake2b. This will further partition the salt hash space, making key collisions
 between different applications, with the same `passphrase` and `salt` practically
