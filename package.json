@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "Deterministic seeds from passphrases suitable for WetWare RAM (Read: the human brain)",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "sodium": "^1.2.3"
+  },
   "devDependencies": {
     "eff-diceware-passphrase": "^1.0.0",
     "ssb-keys": "^7.0.0"
