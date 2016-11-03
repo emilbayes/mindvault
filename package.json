@@ -1,6 +1,6 @@
 {
   "name": "mindvault",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Deterministic seeds from passphrases suitable for WetWare RAM (Read: the human brain)",
   "main": "index.js",
   "dependencies": {
