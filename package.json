@@ -4,7 +4,8 @@
   "description": "Deterministic seeds from passphrases suitable for WetWare RAM (Read: the human brain)",
   "main": "index.js",
   "dependencies": {
-    "sodium": "^1.2.3"
+    "nanoassert": "^1.0.0",
+    "sodium-native": "^1.10.3"
   },
   "devDependencies": {
     "eff-diceware-passphrase": "^1.0.0",
